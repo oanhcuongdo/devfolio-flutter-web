@@ -30,7 +30,7 @@ class _ServiceCardBackWidget extends StatelessWidget {
                 context: context,
                 builder: (contecxt) => AlertDialog(
                       title: Text(
-                        "Hire Me!",
+                        "Contact us!",
                         style: AppText.b2b,
                       ),
                       actions: [
@@ -46,7 +46,7 @@ class _ServiceCardBackWidget extends StatelessWidget {
                           MaterialButton(
                             height: 40.0,
                             onPressed: () => openURL(
-                              'https://api.whatsapp.com/send?phone=923460159889',
+                              'https://api.whatsapp.com/send?phone=84925488868',
                             ),
                             color: const Color(0xff34CB62),
                             child: Row(
@@ -95,7 +95,7 @@ class _ServiceCardBackWidget extends StatelessWidget {
                       ),
                     )),
             child: Text(
-              'HIRE ME!',
+              'Contact us!',
               style: AppText.b2!.copyWith(
                 color: Colors.white,
               ),

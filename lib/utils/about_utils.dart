@@ -1,7 +1,7 @@
 class AboutUtils {
   static const String aboutMeHeadline =
-      'I\'m Muhammad Hamza, a Flutter developer, Technical blog writer and UI designer.';
+      'At VSMAC Corporation, we specialize in providing IT personnel to businesses and startups, with a focus on software programming, blockchain, android/ios app development, cloud computing, and languages such as Java, React Native, and Flutter.';
 
   static const String aboutMeDetail =
-      'I\'m a Fresh Graduate with Computer Science as Majors from COMSATS University, Islamabad. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. Been a former  Google Developer Student Clubs (DSC) lead and also CEO/Co-Founder Flutter Islamabad, Pakistan. Currently working as Associate Software Engineer at Sastaticket.pk';
+      'At VSMAC Joint Stock Company, we specialize in providing staffing and training services in information technology to enterprises and startups, with a focus on software programming, blockchain, AI, Data Labeling,  android/iOS app development, cloud computing, and languages such as Java, React Native, Flutter among others. We have representatives located in Singapore, Hong Kong, and Japan.';
 }

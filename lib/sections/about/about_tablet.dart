@@ -26,7 +26,7 @@ class AboutTab extends StatelessWidget {
         children: [
           const Center(
             child: CustomSectionHeading(
-              text: '\nAbout Me',
+              text: '\nVSMAC - Metaverse Resource',
             ),
           ),
           const Center(
@@ -43,7 +43,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.03,
           ),
           Text(
-            "Who am I?",
+            "About VSMAC?",
             style: AppText.b2!.copyWith(
               color: AppTheme.c!.primary,
             ),
@@ -98,11 +98,11 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Name",
-                    information: "Muhammad Hamza",
+                    information: "VSMAC Metaverse Resource",
                   ),
                   AboutMeData(
-                    data: "Age",
-                    information: "24",
+                    data: "Since",
+                    information: "2016",
                   ),
                 ],
               ),
@@ -114,11 +114,11 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Email",
-                    information: "hamza.6.shakeel@gmail.com",
+                    information: "support@vsmac.com",
                   ),
                   AboutMeData(
                     data: "From",
-                    information: "Attock, PK",
+                    information: "Hanoi, Vietnam",
                   ),
                 ],
               ),
@@ -133,7 +133,7 @@ class AboutTab extends StatelessWidget {
                 child: OutlinedButton(
                   onPressed: () => html.window.open(StaticUtils.resume, 'pdf'),
                   child: const Text(
-                    "Resume",
+                    "Comapny Profile",
                   ),
                 ),
               ),
