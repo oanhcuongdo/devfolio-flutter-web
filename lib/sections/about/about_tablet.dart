@@ -31,7 +31,7 @@ class AboutTab extends StatelessWidget {
           ),
           const Center(
             child: CustomSectionSubHeading(
-              text: 'Get to know me :)',
+              text: 'Digital Transform Platform',
             ),
           ),
           Space.y1!,
@@ -133,7 +133,7 @@ class AboutTab extends StatelessWidget {
                 child: OutlinedButton(
                   onPressed: () => html.window.open(StaticUtils.resume, 'pdf'),
                   child: const Text(
-                    "Comapny Profile",
+                    "Digital Transform Platform",
                   ),
                 ),
               ),

@@ -28,7 +28,7 @@ class AboutMobile extends StatelessWidget {
             text: '\nVSMAC - Metaverse Resource',
           ),
           const CustomSectionSubHeading(
-            text: 'Get to know me :)',
+            text: 'Digital Transform Platform',
           ),
           Space.y1!,
           Image.asset(
