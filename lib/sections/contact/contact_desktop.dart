@@ -18,7 +18,7 @@ class ContactDesktop extends StatelessWidget {
             text: "\nGet in Touch",
           ),
           const CustomSectionSubHeading(
-            text: "Let's build something together :)\n\n",
+            text: "Building the digital world of operation and entrepreneurship\n\n",
           ),
           Space.y!,
           Wrap(

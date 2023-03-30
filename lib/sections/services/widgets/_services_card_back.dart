@@ -70,7 +70,7 @@ class _ServiceCardBackWidget extends StatelessWidget {
                           MaterialButton(
                             height: 40.0,
                             onPressed: () => openURL(
-                              'https://www.upwork.com/freelancers/~0197b0f6aaeba9675f',
+                              'https://matrix.com.vn',
                             ),
                             color: const Color(0xff13A800),
                             child: Row(
@@ -83,7 +83,7 @@ class _ServiceCardBackWidget extends StatelessWidget {
                                 ),
                                 Space.x!,
                                 Text(
-                                  'Upwork',
+                                  'StartUp Community',
                                   style: AppText.l1!.copyWith(
                                     color: Colors.white,
                                   ),

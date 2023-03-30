@@ -19,7 +19,7 @@ class PortfolioMobileTab extends StatelessWidget {
           text: "\nPortfolio",
         ),
         const CustomSectionSubHeading(
-          text: "Here are few samples of my previous work :)\n\n",
+          text: "VSMAC Partners and Customers\n\n",
         ),
         CarouselSlider.builder(
           itemCount: ProjectUtils.titles.length,

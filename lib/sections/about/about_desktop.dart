@@ -28,7 +28,7 @@ class AboutDesktop extends StatelessWidget {
             text: '\nVSMAC - Metaverse Resource',
           ),
           const CustomSectionSubHeading(
-            text: 'Get to know me :)',
+            text: 'Digital Transformation Company',
           ),
           Space.y1!,
           Row(
@@ -77,7 +77,7 @@ class AboutDesktop extends StatelessWidget {
                       ),
                       Space.y!,
                       Text(
-                        'Technologies I have worked with:',
+                        'Technologies we have worked with:',
                         style: AppText.l1!.copyWith(
                           color: AppTheme.c!.primary,
                         ),
@@ -136,7 +136,7 @@ class AboutDesktop extends StatelessWidget {
                               onPressed: () =>
                                   html.window.open(StaticUtils.resume, 'pdf'),
                               child: const Text(
-                                "Resume",
+                                "VSMAC",
                               ),
                             ),
                           ),

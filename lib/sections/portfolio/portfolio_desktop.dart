@@ -24,7 +24,7 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
             text: "\nPortfolio",
           ),
           const CustomSectionSubHeading(
-            text: "Here are few samples of my previous work :)\n\n",
+            text: "VSMAC Partners and Customers\n\n",
           ),
           Wrap(
             alignment: WrapAlignment.center,

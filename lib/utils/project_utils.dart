@@ -1,18 +1,18 @@
 class ProjectUtils {
   static const List<String> banners = [
     "assets/projects/snackbar.png",
-    "assets/projects/quranB.png",
-    "assets/projects/medkitB.png",
-    "assets/projects/hereiamB.png",
-    "assets/projects/covidB.png",
+    "assets/projects/msb2.png",
+    "assets/projects/arttaca.png",
+    "assets/projects/phenikka.png",
+    "assets/projects/bfri2.png",
   ];
 
   static const List<String> icons = [
     "assets/projects/flutter.png",
-    "assets/projects/quran.png",
-    "assets/projects/medkit.png",
-    "assets/projects/hereiam.png",
-    "assets/projects/covid.png",
+    "assets/projects/msb1.png",
+    "assets/projects/arttaca.png",
+    "assets/projects/phenikka.png",
+    "assets/projects/bfri.png",
     "assets/projects/messenger.png",
     "assets/projects/flutter.png",
     "assets/projects/earbender.png",
@@ -22,25 +22,19 @@ class ProjectUtils {
   ];
 
   static const List<String> titles = [
-    "Awesome Snackbar Dart Package",
-    "The Holy Qur'an",
-    "MedKit",
-    "Here I Am",
-    "COVID-19",
-    "Messenger Chat Head UI",
-    "flutter.dev - Flutter Web",
-    "Earbender",
-    "File Transfer Protocol",
-    "My Order",
-    "Hidev",
+    "Viettel Group",
+    "MSB Bank",
+    "Arttaca",
+    "Phenikaa",
+    "BFRI",
   ];
 
   static const List<String> description = [
-    "A very unique dart package to uplift the snackbar experience in flutter. Available at pub.dev now!",
-    "Application of Holy book of Muslims, Al-Qur'an. Developed using Flutter. Powered with live RestAPI given in README.md",
-    "A Phramacy app developed using Flutter powered with Firebase as database with Doctor and Patient panels.",
-    "Here I am is an Alert app that Sends alert SMS holding your location (Address and Google Maps) to your loved ones.",
-    "A live trakcer for COVID19 stats across the Globe and my Home country Pakistan. It uses APIs so the data is live.",
+    "Viettel Group is one of the fastest-growing telecommunications companies in Southeast Asia, with a presence in 11 countries across Asia, Africa, and the Americas.",
+    "Maritime Bank has 200+ branches across Vietnam and branches in Cambodia and Laos. Known for customer service & tech-driven approach, it offers digital banking services.",
+    "Arttaca is a curated platform for art and photography, with a community that is built around the sharing of NFT and NFT+ native artworks.",
+    "Phenikaa Group, based in Hanoi, Vietnam, operates in diverse sectors like tech, real estate, education, healthcare, and hospitality",
+    "BFRI Asia Pte. Ltd. is a Venture Capital and Private Equity firm based in Singapore, established in 2012 with a focus on creating a hybrid asset model that bridges traditional assets with digital assets. ",
     "Tried to clone the famous Chat Heads by Facebook Messenger using Flutter. Its basically in-app not exactly like the original chat head.",
     "Flutter Official Site clone using Flutter Web. Try the live site here. For the time being its not responsive fully so there might be responsiveness issues.",
     "A concept of Music App developed using Flutter. Having functionality of playing Audio.",
@@ -50,11 +44,11 @@ class ProjectUtils {
   ];
 
   static const List<String> links = [
-    "https://pub.dev/packages/awesome_snackbar_content",
-    "https://github.com/mhmzdev/The_Holy_Quran_App",
-    "https://github.com/mhmzdev/MedKit-Pharmacy-App-Using-Flutter",
-    "https://github.com/mhmzdev/Here-I-Am-Alert-App",
-    "https://github.com/mhmzdev/Covid19-Tracker-App",
+    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
+    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
+    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
+    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
+    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
     "https://github.com/mhmzdev/Messenger-Chat-Head-Flutter-UI",
     "https://github.com/mhmzdev/flutter.dev-Flutter-Web-Clone",
     "https://github.com/mhmzdev/Earbender_Music_App",

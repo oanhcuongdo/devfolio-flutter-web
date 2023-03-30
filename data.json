@@ -42,32 +42,32 @@
     "aboueMeDetails": "At VSMAC Corporation, we specialize in providing IT personnel to businesses and startups, with a focus on software programming, blockchain, android/ios app development, cloud computing, and languages such as Java, React Native, and Flutter.",
     "technologies": [
         "Flutter",
-        "Dart",
+        "Blockchain",
         "Python",
         "Java",
         "C++",
-        "Flask"
+        "Machine Learning"
     ],
     "services": [
         {
             "icon": "assets/services/app.png",
             "name": "Mobile App Development",
-            "description": "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!"
+            "description": "The present proposal entails the utilization of the Flutter framework to undertake the development of mobile applications for the iOS and Android platforms. The project will involve the creation of a splash screen, as well as the integration of Firebase authentication and cloud services, REST APIs, maps, and other relevant features."
         },
         {
             "icon": "assets/services/ui.png",
             "name": "UI/UX Designing",
-            "description": "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!"
+            "description": "The proposed project pertains to contemporary user interface and user experience design, involving the utilization of Adobe XD software to develop aesthetically appealing and intuitive interfaces for both mobile and web-based applications. The project will include the creation of interactive user interfaces, ensuring responsiveness across multiple devices, and the development of promotional videos, among other related tasks"
         },
         {
             "icon": "assets/services/rapid.png",
-            "name": "Rapid Prototyping",
-            "description": "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype"
+            "name": "Machine Learning",
+            "description": "Machine learning service outsourcing delegates ML tasks to external providers with expertise and resources to perform data analysis and modeling. It enables firms to leverage AI technology without investing in infrastructure or hiring staff. Outsourcing frees up resources to focus on core competencies and gain a competitive edge, making it popular for data-driven decision-making.\n\n\n\n"
         },
         {
             "icon": "assets/services/blog.png",
-            "name": "Technical Blog Writing",
-            "description": "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!"
+            "name": "Blockchain Development ",
+            "description": "Blockchain development service outsourcing involves delegating the development of blockchain-based applications to external service providers"
         },
         {
             "icon": "assets/services/open.png",
@@ -80,10 +80,10 @@
     },
     "projects": [
         {
-            "title": "Awesome SnackBar",
+            "title": "Viettel Group",
             "iconUrl": "https://drive.google.com/file/d/1EohcZdd5mg5dqHQIn24k_G0dpqQTFYwV/view?usp=sharing",
             "bannerUrl": "assets/projects/medkitB.png",
-            "description": "A dart package including a wholesome experience of snackbar in your applications."
+            "description": "Viettel Group is a Vietnamese multinational telecommunications conglomerate headquartered in Hanoi, Vietnam. It was established in 1989 as a military telecommunications unit, and later became a state-owned enterprise in 2004. Viettel Group has since grown to become Vietnam's largest mobile network operator and one of the fastest-growing telecommunications companies in Southeast Asia, with a presence in 11 countries across Asia, Africa, and the Americas."
         },
         {
             "title": "MedKit",
@@ -149,7 +149,7 @@
     "contact": [
         {
             "param": "address",
-            "value": "Hanoi, Vietnam"
+            "value": "3 Floor, Savina Building, 1 Dinh Le, Hoan Kiem,Hanoi, Vietnam"
         },
         {
             "param": "phone",

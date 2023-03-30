@@ -17,12 +17,12 @@ class Footer extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             const Text(
-              "Developed in 💙 with ",
+              "Digital Transform Company ",
             ),
             InkWell(
-              onTap: () => openURL("https://github.com/mhmzdev/DevFolio"),
+              onTap: () => openURL("https://www.vsmac.com"),
               child: const Text(
-                "Flutter",
+                "VSMAC",
                 style: TextStyle(color: Colors.blue),
               ),
             )

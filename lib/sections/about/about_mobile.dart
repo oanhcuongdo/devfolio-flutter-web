@@ -72,7 +72,7 @@ class AboutMobile extends StatelessWidget {
           ),
           Space.y!,
           Text(
-            'Technologies I have worked with:',
+            'Technologies we have worked with:',
             style: AppText.l1!.copyWith(
               color: AppTheme.c!.primary,
             ),
@@ -104,7 +104,7 @@ class AboutMobile extends StatelessWidget {
           ),
           Space.y!,
           OutlinedButton(
-              child: const Text("Resume"),
+              child: const Text("VSMAC"),
               onPressed: () {
                 kIsWeb
                     ? html.window.open(StaticUtils.resume, "pdf")

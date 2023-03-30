@@ -12,16 +12,16 @@ class ServicesUtils {
   static const List<String> servicesTitles = [
     "Mobile App Development",
     "UI/UX Designing",
-    "Rapid Prototyping",
-    "Technical Blog Writing",
+    "Machine Learning",
+    "Blockchain Development",
     "Open Source - GitHub",
   ];
 
   static const List<String> servicesDescription = [
-    "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!",
-    "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!",
-    "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype",
-    "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!",
-    "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
+    "Proposal uses Flutter for iOS/Android app development. It includes splash screen, Firebase integration, REST APIs, maps, and more.",
+    "Proposed project uses Adobe XD for UI/UX design of mobile and web apps. It includes interactive UI design, responsiveness, and promo videos, among other tasks.",
+    "ML service outsourcing delegates tasks to experts, freeing up resources to focus on core competencies. It allows leveraging AI without investing in infrastructure, making it popular for data-driven decision-making.",
+    "Blockchain development service outsourcing involves delegating the development of blockchain-based applications to external service providers.",
+    "Building solutions on open-source systems.",
   ];
 }
