@@ -41,7 +41,7 @@ class HomeMobile extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "HEY THERE! ",
+                      "HANOI-VIETNAM ",
                       style: AppText.b2!.copyWith(
                         fontFamily: 'Montserrat',
                       ),
