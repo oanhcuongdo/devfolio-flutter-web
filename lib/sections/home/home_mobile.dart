@@ -55,7 +55,7 @@ class HomeMobile extends StatelessWidget {
                 ),
                 Space.y!,
                 Text(
-                  "VSMAC - Metaverse Resource",
+                  "VSMAC JOIN STOCK COMPANY - Virtual, Social, Mobile, Analytic and Cloud",
                   style: AppText.h3!.copyWith(
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w100,
