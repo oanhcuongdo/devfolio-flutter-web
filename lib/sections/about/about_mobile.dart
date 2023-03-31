@@ -96,11 +96,11 @@ class AboutMobile extends StatelessWidget {
           ),
           const AboutMeData(
             data: "Name",
-            information: "VSMAC - Metaverse Resource Metaverse Resource",
+            information: "VSMAC - Metaverse Resource",
           ),
           const AboutMeData(
             data: "Email",
-            information: "Metaverse Resource.6.shakeel@gmail.com",
+            information: "support@vsmac.com",
           ),
           Space.y!,
           OutlinedButton(
