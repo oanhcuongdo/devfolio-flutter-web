@@ -25,10 +25,10 @@ class AboutMobile extends StatelessWidget {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: '\nVSMAC - Metaverse Resource',
+            text: '\nBeeNet - Enjoyable Digital World ',
           ),
           const CustomSectionSubHeading(
-            text: 'Digital Transform Platform',
+            text: 'Enjoyable Digital Project',
           ),
           Space.y1!,
           Image.asset(
@@ -41,7 +41,7 @@ class AboutMobile extends StatelessWidget {
           Align(
             alignment: Alignment.centerLeft,
             child: Text(
-              "About VSMAC?",
+              "Giới thiệu  BeeNet?",
               style: AppText.b2!.copyWith(
                 color: AppTheme.c!.primary,
               ),
@@ -96,11 +96,11 @@ class AboutMobile extends StatelessWidget {
           ),
           const AboutMeData(
             data: "Name",
-            information: "VSMAC - Metaverse Resource",
+            information: "BeeNet - Enjoyable Digital World ",
           ),
           const AboutMeData(
             data: "Email",
-            information: "support@vsmac.com",
+            information: "support@beenet.vn",
           ),
           Space.y!,
           OutlinedButton(

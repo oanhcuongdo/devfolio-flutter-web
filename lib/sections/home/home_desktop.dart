@@ -50,7 +50,7 @@ class HomeDesktop extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      'VSMAC JOIN STOCK COMPANY - Virtual, Social, Mobile, Analytic and Cloud  ',
+                      'BeeNet - Enjoyable Digital World   ',
                       style: AppText.b1!.copyWith(
                         fontFamily: 'Montserrat',
                       ),
@@ -68,7 +68,7 @@ class HomeDesktop extends StatelessWidget {
                 ),
                 Space.y1!,
                 Text(
-                  "METAVERSE",
+                  "Enjoyable",
                   style: AppText.h1!.copyWith(
                     fontFamily: 'Montserrat',
                     fontSize: AppDimensions.normalize(25),
@@ -76,7 +76,7 @@ class HomeDesktop extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  "RESOURCE",
+                  "Digital World ",
                   style: AppText.h1b!.copyWith(
                     fontSize: AppDimensions.normalize(25),
                     height: 1,
@@ -95,17 +95,17 @@ class HomeDesktop extends StatelessWidget {
                       AnimatedTextKit(
                         animatedTexts: [
                           TyperAnimatedText(
-                            ' Flutter, JAVA, React Native, Web, AI, Blockchain, NFT',
+                            '  Bảo vệ trẻ trên mạng, như kiểm soát thời gian sử dụng màn hình',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' IT Outsourcing Solution for Startup & Enterprise',
+                            ' Theo dõi các hoạt động trực tuyến của trẻ em và quản lý nội dung độc hại',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),
                           TyperAnimatedText(
-                            ' IT Coding School',
+                            ' Đào tạo, khám phá và học hỏi trên mạng một cách an toàn',
                             speed: const Duration(milliseconds: 50),
                             textStyle: AppText.b1,
                           ),

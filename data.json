@@ -1,6 +1,6 @@
 {
     "name": "VSMAC JSC",
-    "email": "support@vsmac.com",
+    "email": "support@beenet.vn",
     "subtitles": [
         "Flutter Developer",
         "Technical Writer",
@@ -35,7 +35,7 @@
         },
         {
             "platform": "medium",
-            "url": "https://mMetaverse Resourcedev.medium.com/"
+            "url": "https://mEnjoyable Digital World dev.medium.com/"
         }
     ],
     "aboutMeHeadline": "At VSMAC Corporation, we specialize in providing IT personnel to businesses and startups, with a focus on software programming, blockchain, android/ios app development, cloud computing, and languages such as Java, React Native, and Flutter.",
@@ -76,7 +76,7 @@
         }
     ],
     "hireMe": {
-        "whatsapp": "+84925488868"
+        "whatsapp": "+84898553866"
     },
     "projects": [
         {
@@ -153,11 +153,11 @@
         },
         {
             "param": "phone",
-            "value": "+84 925488868"
+            "value": "+84 898553866"
         },
         {
             "param": "email",
-            "value": "support@vsmac.com"
+            "value": "support@beenet.vn"
         }
     ]
 }

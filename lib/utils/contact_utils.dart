@@ -15,7 +15,7 @@ class ContactUtils {
 
   static const List<String> details = [
     "Hanoi, Vietnam",
-    "(+84) 925488868",
-    "support@vsmac.com",
+    "(+84) 898553866",
+    "support@beenet.vn",
   ];
 }

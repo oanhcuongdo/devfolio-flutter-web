@@ -26,12 +26,12 @@ class AboutTab extends StatelessWidget {
         children: [
           const Center(
             child: CustomSectionHeading(
-              text: '\nVSMAC - Metaverse Resource',
+              text: '\nBeeNet - Enjoyable Digital World ',
             ),
           ),
           const Center(
             child: CustomSectionSubHeading(
-              text: 'Digital Transform Platform',
+              text: 'Enjoyable Digital Project',
             ),
           ),
           Space.y1!,
@@ -43,7 +43,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.03,
           ),
           Text(
-            "About VSMAC?",
+            "Giới thiệu BeeNet?",
             style: AppText.b2!.copyWith(
               color: AppTheme.c!.primary,
             ),
@@ -98,7 +98,7 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Name",
-                    information: "VSMAC Metaverse Resource",
+                    information: "BeeNet - Enjoyable Digital World ",
                   ),
                   AboutMeData(
                     data: "Since",
@@ -114,7 +114,7 @@ class AboutTab extends StatelessWidget {
                 children: const [
                   AboutMeData(
                     data: "Email",
-                    information: "support@vsmac.com",
+                    information: "support@beenet.vn",
                   ),
                   AboutMeData(
                     data: "From",
@@ -133,7 +133,7 @@ class AboutTab extends StatelessWidget {
                 child: OutlinedButton(
                   onPressed: () => html.window.open(StaticUtils.resume, 'pdf'),
                   child: const Text(
-                    "Digital Transform Platform",
+                    "Enjoyable Digital Project",
                   ),
                 ),
               ),

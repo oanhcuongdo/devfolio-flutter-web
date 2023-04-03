@@ -25,10 +25,10 @@ class AboutDesktop extends StatelessWidget {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: '\nVSMAC - Metaverse Resource',
+            text: '\nBeeNet - Enjoyable Digital World ',
           ),
           const CustomSectionSubHeading(
-            text: 'Digital Transformation Company',
+            text: 'Enjoyable Digital World',
           ),
           Space.y1!,
           Row(
@@ -47,7 +47,7 @@ class AboutDesktop extends StatelessWidget {
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
-                        'About VSMAC',
+                        'Giới thiệu BeeNet',
                         style: AppText.b1!.copyWith(
                           color: AppTheme.c!.primary,
                         ),
@@ -102,7 +102,7 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Name",
-                                information: "VSMAC - Metaverse Resource",
+                                information: "BeeNet - Enjoyable Digital World ",
                               ),
                               AboutMeData(
                                 data: "Since",
@@ -116,7 +116,7 @@ class AboutDesktop extends StatelessWidget {
                             children: const [
                               AboutMeData(
                                 data: "Email",
-                                information: "support@vsmac.com",
+                                information: "support@beenet.vn",
                               ),
                               AboutMeData(
                                 data: "From",
@@ -136,7 +136,7 @@ class AboutDesktop extends StatelessWidget {
                               onPressed: () =>
                                   html.window.open(StaticUtils.resume, 'pdf'),
                               child: const Text(
-                                "VSMAC",
+                                "BeeNet",
                               ),
                             ),
                           ),

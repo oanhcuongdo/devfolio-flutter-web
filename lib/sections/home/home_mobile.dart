@@ -55,14 +55,14 @@ class HomeMobile extends StatelessWidget {
                 ),
                 Space.y!,
                 Text(
-                  "VSMAC - Metaverse Resource",
+                  "BeeNet - Enjoyable Digital World ",
                   style: AppText.h3!.copyWith(
                     fontFamily: 'Montserrat',
                     fontWeight: FontWeight.w100,
                   ),
                 ),
                 Text(
-                  "Metaverse Resource",
+                  "Enjoyable Digital World ",
                   style: AppText.h3b!.copyWith(
                     height: 1,
                   ),
@@ -77,17 +77,17 @@ class HomeMobile extends StatelessWidget {
                     AnimatedTextKit(
                       animatedTexts: [
                         TyperAnimatedText(
-                          ' Flutter, JAVA, React Native, Web, AI, Blockchain, NFT',
+                          '  Bảo vệ trẻ trên mạng, như kiểm soát thời gian sử dụng màn hình',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
                         TyperAnimatedText(
-                          ' IT Outsourcing Solution for Startup & Enterprise',
+                          ' Theo dõi các hoạt động trực tuyến của trẻ em và quản lý nội dung độc hại',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
                         TyperAnimatedText(
-                          ' IT Coding School',
+                          ' Đào tạo, khám phá và học hỏi trên mạng một cách an toàn',
                           speed: const Duration(milliseconds: 50),
                           textStyle: AppText.b1,
                         ),
