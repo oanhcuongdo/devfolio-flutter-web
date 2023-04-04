@@ -72,7 +72,7 @@ class AboutMobile extends StatelessWidget {
           ),
           Space.y!,
           Text(
-            'Technologies we have worked with:',
+            'Nển tảng công nghệ dự án',
             style: AppText.l1!.copyWith(
               color: AppTheme.c!.primary,
             ),

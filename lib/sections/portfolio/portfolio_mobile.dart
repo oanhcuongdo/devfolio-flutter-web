@@ -16,10 +16,10 @@ class PortfolioMobileTab extends StatelessWidget {
     return Column(
       children: [
         const CustomSectionHeading(
-          text: "\nPortfolio",
+          text: "Mạng lưới Đối tác",
         ),
         const CustomSectionSubHeading(
-          text: "VSMAC Partners and Customers\n\n",
+          text: "Mạng lưới Đối tác dự án  BeeNet\n\n",
         ),
         CarouselSlider.builder(
           itemCount: ProjectUtils.titles.length,

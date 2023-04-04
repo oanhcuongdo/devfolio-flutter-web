@@ -21,10 +21,10 @@ class _PortfolioDesktopState extends State<PortfolioDesktop> {
       child: Column(
         children: [
           const CustomSectionHeading(
-            text: "\nPortfolio",
+            text: "Mạng lưới Đối tác",
           ),
           const CustomSectionSubHeading(
-            text: "VSMAC Partners and Customers\n\n",
+            text: "Mạng lưới Đối tác dự án  BeeNet\n\n",
           ),
           Wrap(
             alignment: WrapAlignment.center,

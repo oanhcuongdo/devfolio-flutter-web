@@ -39,9 +39,9 @@ class StaticUtils {
   ];
 
   static const String resume =
-      'https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view?usp=sharing';
+      'https://classroom.google.com/c/NjAyNjYxNDQ0NzQ3?cjc=g4z37b7?usp=sharing';
 
-  static const String gitHub = 'https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view';
+  static const String gitHub = 'https://classroom.google.com/c/NjAyNjYxNDQ0NzQ3?cjc=g4z37b7';
 }
 
 class BodyUtils {

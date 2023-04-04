@@ -4,7 +4,7 @@ class NavBarUtils {
   static const List<String> names = [
     'HOME',
     'GIỚI THIỆU',
-    'DỊCH VỤ',
+    'SỨ MỆNH',
     'DỰ ÁN',
     'LIÊN HỆ',
   ];

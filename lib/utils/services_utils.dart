@@ -10,18 +10,18 @@ class ServicesUtils {
   ];
 
   static const List<String> servicesTitles = [
-    "Mobile App Development",
-    "UI/UX Designing",
-    "Machine Learning",
-    "Blockchain Development",
-    "Open Source - GitHub",
+    "Quản lý ",
+    "Chia sẻ",
+    "Kiểm soát",
+    "Khám phá",
+    "An tâm",
   ];
 
   static const List<String> servicesDescription = [
-    "Proposal uses Flutter for iOS/Android app development. It includes splash screen, Firebase integration, REST APIs, maps, and more.",
-    "Proposed project uses Adobe XD for UI/UX design of mobile and web apps. It includes interactive UI design, responsiveness, and promo videos, among other tasks.",
-    "ML service outsourcing delegates tasks to experts, freeing up resources to focus on core competencies. It allows leveraging AI without investing in infrastructure, making it popular for data-driven decision-making.",
-    "Blockchain development service outsourcing involves delegating the development of blockchain-based applications to external service providers.",
-    "Building solutions on open-source systems.",
+    "Tạo tài khoản riêng cho con em mình và quản lý các hoạt động",
+    "Chia sẻ tài khoản và các dịch vụ của mình với các thành viên khác trong gia đình một cách dễ dàng và tiện lợi.",
+    "Cung cấp các công cụ hữu ích để giúp bạn bảo vệ con em mình trên mạng, như kiểm soát thời gian sử dụng màn hình, theo dõi các hoạt động trực tuyến của trẻ em và quản lý nội dung độc hại.",
+    "Cung cấp cho họ các công cụ và tài nguyên cần thiết để khám phá và học hỏi trên mạng một cách an toàn",
+    "BeeNet giúp bạn có thể yên tâm hơn khi trẻ em của mình sử dụng Internet. Chúng tôi cam kết bảo vệ quyền riêng tư và an toàn cho tất cả các thành viên trong gia đình của bạn,",
   ];
 }

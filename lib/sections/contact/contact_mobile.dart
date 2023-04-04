@@ -13,10 +13,10 @@ class ContactMobileTab extends StatelessWidget {
     return Column(
       children: [
         const CustomSectionHeading(
-          text: "\nGet in Touch",
+          text: "\nKết nối  BeeNet",
         ),
         const CustomSectionSubHeading(
-          text: "Building the digital world of operation and entrepreneurship\n\n",
+          text: "Thế giới số vui vẻ và thú vị cho trẻ em\n\n",
         ),
         CarouselSlider.builder(
           itemCount: 3,

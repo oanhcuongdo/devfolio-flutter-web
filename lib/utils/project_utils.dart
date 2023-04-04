@@ -22,19 +22,19 @@ class ProjectUtils {
   ];
 
   static const List<String> titles = [
-    "Viettel Group",
-    "MSB Bank",
-    "Arttaca",
-    "Phenikaa",
-    "BFRI",
+    "Project Matrix ",
+    "Github Students",
+    "Microsoft Startup Program",
+    "Github Education",
+    "Google Education",
   ];
 
   static const List<String> description = [
-    "Viettel Group is one of the fastest-growing telecommunications companies in Southeast Asia, with a presence in 11 countries across Asia, Africa, and the Americas.",
-    "Maritime Bank has 200+ branches across Vietnam and branches in Cambodia and Laos. Known for customer service & tech-driven approach, it offers digital banking services.",
-    "Arttaca is a curated platform for art and photography, with a community that is built around the sharing of NFT and NFT+ native artworks.",
-    "Phenikaa Group, based in Hanoi, Vietnam, operates in diverse sectors like tech, real estate, education, healthcare, and hospitality",
-    "BFRI Asia Pte. Ltd. is a Venture Capital and Private Equity firm based in Singapore, established in 2012 with a focus on creating a hybrid asset model that bridges traditional assets with digital assets. ",
+    "Dự án Matrix với sứ mệnh tăng cường sức mạnh cho các công ty khởi nghiệp bằng cách cung cấp cho họ các nguồn lực và hỗ trợ cần thiết để thành công.",
+    "Github Students Pack là một gói ưu đãi dành cho sinh viên trên toàn cầu, cung cấp các công cụ và tài nguyên miễn phí để giúp học tập và phát triển kỹ năng lập trình của mình. ",
+    "Microsoft Startup Program là một chương trình của Microsoft cung cấp các công cụ và tài nguyên miễn phí để giúp các startup xây dựng các sản phẩm mới. ",
+    "GitHub Education là một chương trình của GitHub cung cấp các công cụ và tài nguyên miễn phí để giúp sinh viên và giáo viên phát triển kỹ năng lập trình của mình và xây dựng các sản phẩm mới.",
+    "Google Education là một bộ công cụ dành cho giáo dục, bao gồm các ứng dụng như Google Classroom, Google Drive và Google Docs, giúp giáo viên và học sinh tương tác với nhau và chia sẻ tài liệu một cách dễ dàng. ",
     "Tried to clone the famous Chat Heads by Facebook Messenger using Flutter. Its basically in-app not exactly like the original chat head.",
     "Flutter Official Site clone using Flutter Web. Try the live site here. For the time being its not responsive fully so there might be responsiveness issues.",
     "A concept of Music App developed using Flutter. Having functionality of playing Audio.",
@@ -44,11 +44,11 @@ class ProjectUtils {
   ];
 
   static const List<String> links = [
-    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
-    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
-    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
-    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
-    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
+    "https://classroom.google.com/c/NjAyNjYxNDQ0NzQ3?cjc=g4z37b7",
+    "https://classroom.google.com/c/NjAyNjYxNDQ0NzQ3?cjc=g4z37b7",
+    "https://classroom.google.com/c/NjAyNjYxNDQ0NzQ3?cjc=g4z37b7",
+    "https://classroom.google.com/c/NjAyNjYxNDQ0NzQ3?cjc=g4z37b7",
+    "https://classroom.google.com/c/NjAyNjYxNDQ0NzQ3?cjc=g4z37b7",
     "https://github.com/mhmzdev/Messenger-Chat-Head-Flutter-UI",
     "https://github.com/mhmzdev/flutter.dev-Flutter-Web-Clone",
     "https://github.com/mhmzdev/Earbender_Music_App",
