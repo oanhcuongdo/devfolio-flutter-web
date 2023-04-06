@@ -104,7 +104,7 @@ class AboutMobile extends StatelessWidget {
           ),
           Space.y!,
           OutlinedButton(
-              child: const Text("VSMAC"),
+              child: const Text("BeeNet"),
               onPressed: () {
                 kIsWeb
                     ? html.window.open(StaticUtils.resume, "pdf")
