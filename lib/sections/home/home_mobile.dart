@@ -1,4 +1,4 @@
-import 'package:animated_text_kit/animated_text_kit.dart';
+
 import 'package:flutter/material.dart';
 import 'package:folio/configs/configs.dart';
 
@@ -41,7 +41,7 @@ class HomeMobile extends StatelessWidget {
                   mainAxisSize: MainAxisSize.min,
                   children: [
                     Text(
-                      "HANOI-VIETNAM ",
+                      "Matrix Innovation Startup, 1 P. Đinh Lễ ",
                       style: AppText.b2!.copyWith(
                         fontFamily: 'Montserrat',
                       ),
@@ -74,26 +74,11 @@ class HomeMobile extends StatelessWidget {
                       Icons.play_arrow_rounded,
                       color: AppTheme.c!.primary!,
                     ),
-                    AnimatedTextKit(
-                      animatedTexts: [
-                        TyperAnimatedText(
-                          ' Flutter, JAVA, React Native, Web, AI, Blockchain, NFT',
-                          speed: const Duration(milliseconds: 50),
-                          textStyle: AppText.b1,
-                        ),
-                        TyperAnimatedText(
-                          ' IT Outsourcing Solution for Startup & Enterprise',
-                          speed: const Duration(milliseconds: 50),
-                          textStyle: AppText.b1,
-                        ),
-                        TyperAnimatedText(
-                          ' IT Coding School',
-                          speed: const Duration(milliseconds: 50),
-                          textStyle: AppText.b1,
-                        ),
-                      ],
-                      repeatForever: true,
-                      isRepeatingAnimation: true,
+                    Expanded(
+                      child: Text(
+                        ' Flutter, JAVA, Web, AI, Blockchain | IT Outsourcing',
+                        style: AppText.b1,
+                      ),
                     ),
                   ],
                 ),

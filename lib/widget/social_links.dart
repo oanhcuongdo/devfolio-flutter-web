@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:folio/configs/configs.dart';
 import 'package:folio/constants.dart';
 import 'package:folio/provider/app_provider.dart';
@@ -21,21 +22,16 @@ class SocialLinks extends StatelessWidget {
           .entries
           .map(
             (e) => Padding(
-              padding:
-                  Responsive.isMobile(context) ? Space.all(0.2, 0) : Space.h!,
+              padding: Responsive.isMobile(context) ? Space.all(0.2, 0) : Space.h!,
               child: IconButton(
                 highlightColor: Colors.white54,
                 splashRadius: AppDimensions.normalize(12),
-                icon: Image.network(
-                  e.value,
+                icon: Icon(
+                  e.key == 0 ? FontAwesomeIcons.whatsapp : FontAwesomeIcons.github,
                   color: appProvider.isDark ? Colors.white : Colors.black,
-                  height: Responsive.isMobile(context)
-                      ? AppDimensions.normalize(10)
-                      : null,
+                  size: Responsive.isMobile(context) ? AppDimensions.normalize(10) : AppDimensions.normalize(15),
                 ),
-                iconSize: Responsive.isMobile(context)
-                    ? AppDimensions.normalize(10)
-                    : AppDimensions.normalize(15),
+                iconSize: Responsive.isMobile(context) ? AppDimensions.normalize(10) : AppDimensions.normalize(15),
                 onPressed: () => openURL(
                   StaticUtils.socialLinks[e.key],
                 ),

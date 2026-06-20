@@ -7,10 +7,13 @@ class _NavbarDesktop extends StatelessWidget {
   Widget build(BuildContext context) {
     final appProvider = Provider.of<AppProvider>(context);
 
-    return Container(
-      padding: Space.all(),
-      color: appProvider.isDark ? Colors.black : Colors.white,
-      child: Row(
+    return ClipRRect(
+      child: BackdropFilter(
+        filter: ImageFilter.blur(sigmaX: 15.0, sigmaY: 15.0),
+        child: Container(
+          padding: Space.all(),
+          color: appProvider.isDark ? Colors.black.withOpacity(0.6) : Colors.white.withOpacity(0.6),
+          child: Row(
         children: [
           const NavBarLogo(),
           Space.xm!,
@@ -61,6 +64,8 @@ class _NavbarDesktop extends StatelessWidget {
           Space.x!,
         ],
       ),
+    ),
+      ),
     );
   }
 }
@@ -72,9 +77,13 @@ class _NavBarTablet extends StatelessWidget {
   Widget build(BuildContext context) {
     final drawerProvider = Provider.of<DrawerProvider>(context);
 
-    return Padding(
-      padding: Space.v!,
-      child: Row(
+    return ClipRRect(
+      child: BackdropFilter(
+        filter: ImageFilter.blur(sigmaX: 15.0, sigmaY: 15.0),
+        child: Container(
+          color: Theme.of(context).brightness == Brightness.dark ? Colors.black.withOpacity(0.6) : Colors.white.withOpacity(0.6),
+          padding: Space.v!,
+          child: Row(
         children: [
           Space.x1!,
           IconButton(
@@ -91,6 +100,8 @@ class _NavBarTablet extends StatelessWidget {
           const NavBarLogo(),
           Space.x1!,
         ],
+      ),
+    ),
       ),
     );
   }

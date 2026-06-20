@@ -14,8 +14,14 @@ class ContactUtils {
   ];
 
   static const List<String> details = [
-    "Hanoi, Vietnam",
-    "(+84) 925488868",
+    "Matrix Innovation Startup\n1 P. Đinh Lễ, Hoàn Kiếm, Hà Nội",
+    "(+84) 928685668",
     "support@vsmac.com",
+  ];
+
+  static const List<String> links = [
+    "https://maps.app.goo.gl/ncrLsyAakq6YS4mq6",
+    "tel:+84928685668",
+    "mailto:support@vsmac.com",
   ];
 }

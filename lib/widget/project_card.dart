@@ -1,3 +1,4 @@
+import 'dart:ui';
 import 'package:flutter/material.dart';
 import 'package:folio/configs/configs.dart';
 import 'package:folio/constants.dart';
@@ -56,30 +57,43 @@ class ProjectCardState extends State<ProjectCard> {
           });
         }
       },
-      child: Container(
+      child: AnimatedContainer(
+        duration: const Duration(milliseconds: 300),
+        curve: Curves.easeOut,
+        transform: Matrix4.identity()..scale(isHover ? 1.05 : 1.0),
+        transformAlignment: Alignment.center,
         margin: Space.h,
-        padding: Space.all(),
-        width: AppDimensions.normalize(150),
-        height: AppDimensions.normalize(90),
-        decoration: BoxDecoration(
-          color: appProvider.isDark ? Colors.grey[900] : Colors.white,
-          borderRadius: BorderRadius.circular(10),
-          boxShadow: isHover
-              ? [
-                  BoxShadow(
-                    color: AppTheme.c!.primary!.withAlpha(100),
-                    blurRadius: 12.0,
-                    offset: const Offset(0.0, 0.0),
-                  )
-                ]
-              : [
-                  BoxShadow(
-                    color: Colors.black.withAlpha(100),
-                    blurRadius: 12.0,
-                    offset: const Offset(0.0, 0.0),
-                  )
-                ],
-        ),
+        child: ClipRRect(
+          borderRadius: BorderRadius.circular(15),
+          child: BackdropFilter(
+            filter: ImageFilter.blur(sigmaX: 10.0, sigmaY: 10.0),
+            child: Container(
+              padding: Space.all(),
+              width: AppDimensions.normalize(150),
+              height: AppDimensions.normalize(90),
+              decoration: BoxDecoration(
+                color: appProvider.isDark ? Colors.black.withOpacity(0.4) : Colors.white.withOpacity(0.4),
+                borderRadius: BorderRadius.circular(15),
+                border: Border.all(
+                  color: isHover ? AppTheme.c!.primary! : Colors.grey.withOpacity(0.2),
+                  width: 1.5,
+                ),
+                boxShadow: isHover
+                    ? [
+                        BoxShadow(
+                          color: AppTheme.c!.primary!.withAlpha(100),
+                          blurRadius: 15.0,
+                          offset: const Offset(0.0, 0.0),
+                        )
+                      ]
+                    : [
+                        BoxShadow(
+                          color: Colors.black.withAlpha(50),
+                          blurRadius: 10.0,
+                          offset: const Offset(0.0, 0.0),
+                        )
+                      ],
+              ),
         child: Stack(
           fit: StackFit.expand,
           children: [
@@ -90,18 +104,16 @@ class ProjectCardState extends State<ProjectCard> {
                     ? (width > 1135 || width < 950)
                         ? Image.asset(
                             widget.projectIcon!,
-                            height: height * 0.05,
+                            height: AppDimensions.normalize(15),
                           )
                         : Row(
                             mainAxisSize: MainAxisSize.min,
                             children: [
                               Image.asset(
                                 widget.projectIcon!,
-                                height: height * 0.03,
+                                height: AppDimensions.normalize(10),
                               ),
-                              SizedBox(
-                                width: width * 0.01,
-                              ),
+                              Space.x1!,
                               Text(
                                 widget.projectTitle,
                                 style: AppText.b2b,
@@ -111,16 +123,21 @@ class ProjectCardState extends State<ProjectCard> {
                           )
                     : Container(),
                 widget.projectIconData != null
-                    ? Icon(
-                        widget.projectIconData,
-                        color: AppTheme.c!.primary!,
-                        size: height * 0.1,
+                    ? ShaderMask(
+                        shaderCallback: (bounds) => const LinearGradient(
+                          colors: [Colors.blueAccent, Colors.purpleAccent],
+                          begin: Alignment.topLeft,
+                          end: Alignment.bottomRight,
+                        ).createShader(bounds),
+                        child: Icon(
+                          widget.projectIconData,
+                          color: Colors.white,
+                          size: AppDimensions.normalize(25),
+                        ),
                       )
                     : Container(),
                 (width > 1135 || width < 950)
-                    ? SizedBox(
-                        height: height * 0.02,
-                      )
+                    ? Space.y!
                     : const SizedBox(),
                 (width > 1135 || width < 950)
                     ? Text(
@@ -129,16 +146,16 @@ class ProjectCardState extends State<ProjectCard> {
                         textAlign: TextAlign.center,
                       )
                     : Container(),
-                SizedBox(
-                  height: height * 0.01,
+                Space.y1!,
+                Expanded(
+                  child: SingleChildScrollView(
+                    child: Text(
+                      widget.projectDescription,
+                      textAlign: TextAlign.center,
+                    ),
+                  ),
                 ),
-                Text(
-                  widget.projectDescription,
-                  textAlign: TextAlign.center,
-                ),
-                SizedBox(
-                  height: height * 0.01,
-                ),
+                Space.y1!,
               ],
             ),
             AnimatedOpacity(
@@ -154,6 +171,9 @@ class ProjectCardState extends State<ProjectCard> {
               ),
             ),
           ],
+        ),
+            ),
+          ),
         ),
       ),
     );

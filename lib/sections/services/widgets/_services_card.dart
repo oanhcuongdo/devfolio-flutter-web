@@ -1,7 +1,7 @@
 part of '../services.dart';
 
 class _ServiceCard extends StatefulWidget {
-  final String serviceIcon;
+  final IconData serviceIcon;
   final String serviceTitle;
   final String serviceDescription;
 
@@ -99,13 +99,17 @@ class _ServiceCardState extends State<_ServiceCard> {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              Image.asset(
-                widget.serviceIcon,
-                height: AppDimensions.normalize(30),
-                color: widget.serviceIcon.contains(StaticUtils.openSource) &&
-                        !appProvider.isDark
-                    ? Colors.black
-                    : null,
+              ShaderMask(
+                shaderCallback: (bounds) => const LinearGradient(
+                  colors: [Colors.blueAccent, Colors.purpleAccent],
+                  begin: Alignment.topLeft,
+                  end: Alignment.bottomRight,
+                ).createShader(bounds),
+                child: Icon(
+                  widget.serviceIcon,
+                  size: AppDimensions.normalize(30),
+                  color: Colors.white,
+                ),
               ),
               Space.y1!,
               Text(

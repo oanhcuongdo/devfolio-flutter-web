@@ -1,4 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart';
+
 import 'package:flutter/material.dart';
 import 'package:folio/configs/configs.dart';
 import 'package:folio/constants.dart';
@@ -21,25 +21,21 @@ class PortfolioMobileTab extends StatelessWidget {
         const CustomSectionSubHeading(
           text: "VSMAC Partners and Customers\n\n",
         ),
-        CarouselSlider.builder(
-          itemCount: ProjectUtils.titles.length,
-          itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
-            padding: const EdgeInsets.symmetric(vertical: 15.0),
-            child: ProjectCard(
-              projectIcon: ProjectUtils.icons[i],
-              projectLink: ProjectUtils.links[i],
-              projectTitle: ProjectUtils.titles[i],
-              projectDescription: ProjectUtils.description[i],
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: List.generate(
+              ProjectUtils.titles.length,
+              (i) => Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 15.0),
+                child: ProjectCard(
+                  projectIcon: ProjectUtils.icons[i],
+                  projectLink: ProjectUtils.links[i],
+                  projectTitle: ProjectUtils.titles[i],
+                  projectDescription: ProjectUtils.description[i],
+                ),
+              ),
             ),
-          ),
-          options: CarouselOptions(
-            height: height * 0.4,
-            autoPlay: true,
-            autoPlayInterval: const Duration(seconds: 5),
-            enlargeCenterPage: true,
-            autoPlayCurve: Curves.fastOutSlowIn,
-            autoPlayAnimationDuration: const Duration(milliseconds: 800),
-            enableInfiniteScroll: false,
           ),
         ),
         Space.y!,

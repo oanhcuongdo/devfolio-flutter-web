@@ -1,4 +1,4 @@
-import 'package:carousel_slider/carousel_slider.dart';
+
 import 'package:flutter/material.dart';
 import 'package:folio/configs/app_dimensions.dart';
 import 'package:folio/utils/contact_utils.dart';
@@ -18,24 +18,21 @@ class ContactMobileTab extends StatelessWidget {
         const CustomSectionSubHeading(
           text: "Building the digital world of operation and entrepreneurship\n\n",
         ),
-        CarouselSlider.builder(
-          itemCount: 3,
-          itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
-            padding: const EdgeInsets.symmetric(vertical: 10.0),
-            child: ProjectCard(
-              projectIconData: ContactUtils.contactIcon[i],
-              projectTitle: ContactUtils.titles[i],
-              projectDescription: ContactUtils.details[i],
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: List.generate(
+              3,
+              (i) => Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
+                child: ProjectCard(
+                  projectIconData: ContactUtils.contactIcon[i],
+                  projectTitle: ContactUtils.titles[i],
+                  projectDescription: ContactUtils.details[i],
+                  projectLink: ContactUtils.links[i],
+                ),
+              ),
             ),
-          ),
-          options: CarouselOptions(
-            height: AppDimensions.normalize(90),
-            autoPlay: true,
-            autoPlayInterval: const Duration(seconds: 5),
-            enlargeCenterPage: true,
-            autoPlayCurve: Curves.fastOutSlowIn,
-            autoPlayAnimationDuration: const Duration(milliseconds: 800),
-            enableInfiniteScroll: false,
           ),
         ),
       ],

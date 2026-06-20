@@ -1,4 +1,4 @@
-import 'package:animated_text_kit/animated_text_kit.dart';
+
 import 'package:flutter/material.dart';
 import 'package:folio/animations/entrance_fader.dart';
 import 'package:folio/configs/configs.dart';
@@ -89,25 +89,9 @@ class HomeTab extends StatelessWidget {
                         Icons.play_arrow_rounded,
                         color: AppTheme.c!.primary!,
                       ),
-                      AnimatedTextKit(
-                        animatedTexts: [
-                          TyperAnimatedText(
-                            ' Flutter, JAVA, React Native, Web, AI, Blockchain, NFT',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                          TyperAnimatedText(
-                            ' IT Outsourcing Solution for Startup & Enterprise',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                          TyperAnimatedText(
-                            ' IT Coding School',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                        ],
-                        isRepeatingAnimation: true,
+                      Text(
+                        ' Flutter, JAVA, Web, AI, Blockchain | IT Outsourcing',
+                        style: AppText.b1,
                       ),
                     ],
                   ),

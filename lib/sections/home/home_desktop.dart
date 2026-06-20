@@ -1,7 +1,8 @@
-import 'package:animated_text_kit/animated_text_kit.dart';
+
 import 'package:flutter/material.dart';
 import 'package:folio/animations/entrance_fader.dart';
 import 'package:folio/configs/configs.dart';
+import 'package:seo_renderer/seo_renderer.dart';
 
 import 'package:folio/utils/utils.dart';
 import 'package:folio/widget/social_links.dart';
@@ -49,10 +50,13 @@ class HomeDesktop extends StatelessWidget {
                 Row(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    Text(
-                      'VSMAC JOIN STOCK COMPANY - Virtual, Social, Mobile, Analytic and Cloud  ',
-                      style: AppText.b1!.copyWith(
-                        fontFamily: 'Montserrat',
+                    TextRenderer(
+                      text: 'VSMAC JOIN STOCK COMPANY - Virtual, Social, Mobile, Analytic and Cloud',
+                      child: Text(
+                        'VSMAC JOIN STOCK COMPANY - Virtual, Social, Mobile, Analytic and Cloud  ',
+                        style: AppText.b1!.copyWith(
+                          fontFamily: 'Montserrat',
+                        ),
                       ),
                     ),
                     EntranceFader(
@@ -67,19 +71,25 @@ class HomeDesktop extends StatelessWidget {
                   ],
                 ),
                 Space.y1!,
-                Text(
-                  "METAVERSE",
-                  style: AppText.h1!.copyWith(
-                    fontFamily: 'Montserrat',
-                    fontSize: AppDimensions.normalize(25),
-                    fontWeight: FontWeight.w100,
+                TextRenderer(
+                  text: "METAVERSE",
+                  child: Text(
+                    "METAVERSE",
+                    style: AppText.h1!.copyWith(
+                      fontFamily: 'Montserrat',
+                      fontSize: AppDimensions.normalize(25),
+                      fontWeight: FontWeight.w100,
+                    ),
                   ),
                 ),
-                Text(
-                  "RESOURCE",
-                  style: AppText.h1b!.copyWith(
-                    fontSize: AppDimensions.normalize(25),
-                    height: 1,
+                TextRenderer(
+                  text: "RESOURCE",
+                  child: Text(
+                    "RESOURCE",
+                    style: AppText.h1b!.copyWith(
+                      fontSize: AppDimensions.normalize(25),
+                      height: 1,
+                    ),
                   ),
                 ),
                 EntranceFader(
@@ -92,25 +102,12 @@ class HomeDesktop extends StatelessWidget {
                         Icons.play_arrow_rounded,
                         color: AppTheme.c!.primary!,
                       ),
-                      AnimatedTextKit(
-                        animatedTexts: [
-                          TyperAnimatedText(
-                            ' Flutter, JAVA, React Native, Web, AI, Blockchain, NFT',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                          TyperAnimatedText(
-                            ' IT Outsourcing Solution for Startup & Enterprise',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                          TyperAnimatedText(
-                            ' IT Coding School',
-                            speed: const Duration(milliseconds: 50),
-                            textStyle: AppText.b1,
-                          ),
-                        ],
-                        isRepeatingAnimation: true,
+                      TextRenderer(
+                        text: "Flutter, JAVA, React Native, Web, AI, Blockchain, NFT | IT Outsourcing Solution",
+                        child: Text(
+                          ' Flutter, JAVA, Web, AI, Blockchain | IT Outsourcing',
+                          style: AppText.b1,
+                        ),
                       ),
                     ],
                   ),

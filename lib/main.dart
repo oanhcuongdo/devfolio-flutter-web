@@ -4,13 +4,19 @@ import 'package:folio/provider/drawer_provider.dart';
 import 'package:folio/provider/scroll_provider.dart';
 import 'package:folio/sections/main/main_section.dart';
 import 'package:provider/provider.dart';
-import 'package:url_strategy/url_strategy.dart';
+import 'package:flutter_web_plugins/url_strategy.dart';
+import 'package:seo_renderer/seo_renderer.dart';
 import 'package:folio/configs/core_theme.dart' as theme;
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
-  setPathUrlStrategy();
-  runApp(const MyApp());
+  usePathUrlStrategy();
+  runApp(
+    const RobotDetector(
+      debug: false,
+      child: MyApp(),
+    ),
+  );
 }
 
 class MyApp extends StatefulWidget {
@@ -67,6 +73,7 @@ class _MaterialChildState extends State<MaterialChild> {
       darkTheme: theme.themeDark,
       themeMode: widget.provider.themeMode,
       initialRoute: "/",
+      navigatorObservers: [seoRouteObserver],
       routes: {
         "/": (context) => const MainPage(),
       },

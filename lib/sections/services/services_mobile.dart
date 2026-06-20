@@ -16,25 +16,20 @@ class ServiceMobile extends StatelessWidget {
           text: 'Building the digital world of operation and entrepreneurship\n\n',
         ),
         Space.y!,
-        CarouselSlider.builder(
-          itemCount: ServicesUtils.servicesTitles.length,
-          itemBuilder: (BuildContext context, int itemIndex, int i) => Padding(
-            padding: const EdgeInsets.symmetric(vertical: 10.0),
-            child: _ServiceCard(
-              serviceIcon: ServicesUtils.servicesIcons[i],
-              serviceTitle: ServicesUtils.servicesTitles[i],
-              serviceDescription: ServicesUtils.servicesDescription[i],
+        SingleChildScrollView(
+          scrollDirection: Axis.horizontal,
+          child: Row(
+            children: List.generate(
+              ServicesUtils.servicesTitles.length,
+              (i) => Padding(
+                padding: const EdgeInsets.symmetric(horizontal: 10.0, vertical: 10.0),
+                child: _ServiceCard(
+                  serviceIcon: ServicesUtils.servicesIcons[i],
+                  serviceTitle: ServicesUtils.servicesTitles[i],
+                  serviceDescription: ServicesUtils.servicesDescription[i],
+                ),
+              ),
             ),
-          ),
-          options: CarouselOptions(
-            viewportFraction: 0.65,
-            height: width < 450 ? height * 0.4 : height * 0.4,
-            autoPlay: true,
-            autoPlayInterval: const Duration(seconds: 5),
-            enlargeCenterPage: true,
-            autoPlayCurve: Curves.fastOutSlowIn,
-            autoPlayAnimationDuration: const Duration(milliseconds: 800),
-            enableInfiniteScroll: false,
           ),
         )
       ],

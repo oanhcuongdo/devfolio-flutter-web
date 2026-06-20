@@ -2,6 +2,7 @@ class ProjectUtils {
   static const List<String> banners = [
     "assets/projects/snackbar.png",
     "assets/projects/msb2.png",
+    "assets/projects/seabank.jpg",
     "assets/projects/arttaca.png",
     "assets/projects/phenikka.png",
     "assets/projects/bfri2.png",
@@ -10,6 +11,7 @@ class ProjectUtils {
   static const List<String> icons = [
     "assets/projects/flutter.png",
     "assets/projects/msb1.png",
+    "assets/projects/seabank.jpg",
     "assets/projects/arttaca.png",
     "assets/projects/phenikka.png",
     "assets/projects/bfri.png",
@@ -24,6 +26,7 @@ class ProjectUtils {
   static const List<String> titles = [
     "Viettel Group",
     "MSB Bank",
+    "SeABank",
     "Arttaca",
     "Phenikaa",
     "BFRI",
@@ -32,6 +35,7 @@ class ProjectUtils {
   static const List<String> description = [
     "Viettel Group is one of the fastest-growing telecommunications companies in Southeast Asia, with a presence in 11 countries across Asia, Africa, and the Americas.",
     "Maritime Bank has 200+ branches across Vietnam and branches in Cambodia and Laos. Known for customer service & tech-driven approach, it offers digital banking services.",
+    "SeABank is a prominent commercial bank in Vietnam, providing a diverse range of financial services with a strong focus on digital transformation and AI integration.",
     "Arttaca is a curated platform for art and photography, with a community that is built around the sharing of NFT and NFT+ native artworks.",
     "Phenikaa Group, based in Hanoi, Vietnam, operates in diverse sectors like tech, real estate, education, healthcare, and hospitality",
     "BFRI Asia Pte. Ltd. is a Venture Capital and Private Equity firm based in Singapore, established in 2012 with a focus on creating a hybrid asset model that bridges traditional assets with digital assets. ",
@@ -44,6 +48,7 @@ class ProjectUtils {
   ];
 
   static const List<String> links = [
+    "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
     "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
     "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",
     "https://drive.google.com/file/d/1gY32whpbegw-pnSsQKWmMlUlSNe2Xbi4/view",

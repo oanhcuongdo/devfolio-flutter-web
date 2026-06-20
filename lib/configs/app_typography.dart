@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:folio/configs/configs.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class AppText {
   static TextStyle? btn;
@@ -26,7 +27,7 @@ class AppText {
 
   static init() {
     const b = FontWeight.bold;
-    const baseStyle = TextStyle(fontFamily: fontFamily);
+    final baseStyle = GoogleFonts.inter();
 
     h1 = baseStyle.copyWith(fontSize: AppDimensions.font(22));
     h1b = h1!.copyWith(fontWeight: b);
